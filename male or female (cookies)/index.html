@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+    <title>Validate Form</title> 
+   <link rel="stylesheet" href="style.css">
+</head> 
+ 
+<body> 
+    
+    <h2>Validation Form</h2> 
+    <label for="name">Name:</label> 
+    <input type="text" id="name" name="name" required>
+
+        <label for="Age">Age:</label> 
+        <input type="number" id="Age" name="Age" required>
+        
+<label for="male">
+    <input type="radio" id="male" name="gender" value="male" required>
+    <img src="1.jpg" width="33%" />
+    
+</label>
+
+<label for="female">
+    <input type="radio" id="female" name="gender" value="female" required>
+    <img src="2.jpg" width="35%" style="margin-left: 4%;"/>
+    
+</label>
+        <!-- select country -->
+        <label for="color">Select a color</label>
+<select id="color" name="color" required>
+    <option value=""></option>
+    <option value="red">red</option>
+  <option value="green">green</option>
+  <option value="blue">blue</option>
+  
+  <!-- Add more countries here as needed -->
+</select>
+
+
+        <a id="btnSubmit" href="./seconPage.html">register </a>
+
+    
+ 
+ <script src="scriptFirstPage.js" type="module"></script>
+</body> 
+ 
+</html>
