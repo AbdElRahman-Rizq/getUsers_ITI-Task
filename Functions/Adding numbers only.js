@@ -13,3 +13,5 @@ function addNumbers() {
   
     return console.log(sum);
   }
+// Output
+addNumbers()// Error: U didn't send arguments
